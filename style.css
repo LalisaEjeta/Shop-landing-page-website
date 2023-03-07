@@ -1,0 +1,57 @@
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+
+.nav-item a:hover{
+    background-color: rgb(92, 149, 199);
+    border-radius: 10px;
+}
+.nav-item a:active{
+    border-radius: 10px;
+}
+/* collection */
+.active-filter-btn{
+    background-color: var(--pink)!important;
+    color: #fff!important;
+    border-color: var(--pink)!important;
+}
+.filter-button-group .btn:hover{
+    color: #fff!important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.cart{
+    border-radius: 20px;
+    background-color: #e5345b;
+    border: none;
+}
+.mybtn{
+    color: black;
+    color: #fff;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+.mybtn:hover{
+    background-color: var(--pink);
+}
+
+.fa-heart:hover{
+    transition: ease 0.5s;
+    transform: scale(1.5);
+}
+
+.zecard:hover{
+    transition: ease 0.5s; 
+    transform: scale(1.09);
+}
+.clickMe:hover{
+    transform: translateX(10px);
+    transition: ease 0.5s;
+}
